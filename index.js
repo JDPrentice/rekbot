@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const config = require("./config.json"); //bot token is pulled from this file
-const fetch = require('node-fetch');
+
 
 const client = new Discord.Client();
 
