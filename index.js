@@ -44,6 +44,7 @@ client.on('message', message => {
 	else if (command === 'help') {
 	client.commands.get('help').execute(message, args);	
 	message.channel.send(helpArray);
+	message.channel.send("**Please note:** the syntax required for RaiderIO is: !raiderio realm character (and the command will only function for EU realms)");
 	}
 
 	else try {
