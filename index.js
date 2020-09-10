@@ -37,7 +37,7 @@ client.on('message', message => {
 	
 	//leaving in the classic for testing purposes
 	if (command === 'ping') {
-	const timeTaken = Date.now() - message.createdTimestamp;	
+	const timeTaken = Date.now() - message.createdTimestamp;	 
 	message.channel.send(`pong! Latency of ${timeTaken}ms`);	
 	}
 	
@@ -46,6 +46,12 @@ client.on('message', message => {
 	message.channel.send(helpArray);
 	message.channel.send("**Please note:** the syntax required for RaiderIO is: !raiderio realm character (and the command will only function for EU realms)");
 	}
+
+	// Idea for the command is to display what servers the bot is connected to, and then how many users are in each server - placed in index so the command is hidden from !help
+	// else if (command === 'rekbotstats') {
+	// I think need to use .fetchGuildPreview to call the discord API & return a promise, before server ('guilds') information shows
+	//	message.channel.send(`Rekbot is currently running on ${client.guilds.cache}`);
+	// }
 
 	else try {
 		client.commands.get(command).execute(message, args);

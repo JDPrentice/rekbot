@@ -14,7 +14,7 @@ module.exports = {
                 response.json().then(data => {
                     message.channel.send(`${data.name}'s (${data.race} ${data.class}) best M+ runs this season are:`);
                     data.mythic_plus_best_runs.forEach(element => {
-                        message.channel.send(`**Dungeon:** ${element.dungeon}, **Level cleared:** ${element.mythic_level}, **Completed on:** ${element.completed_at}`);
+                        message.channel.send(`**Dungeon:** ${element.dungeon}, **Key cleared:** ${element.mythic_level}, **Completed on:** ${element.completed_at}`);
                     });
 
             }).catch(error => {
