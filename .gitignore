@@ -1,3 +1,4 @@
 config.json
 sqlitetools/
+data/sqlite3.exe
 data/messages.db
