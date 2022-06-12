@@ -1,1 +1,4 @@
 config.json
+data/messages.db
+data/msglog.json
+data/testfile1.txt
