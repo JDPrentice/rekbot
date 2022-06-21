@@ -4,13 +4,13 @@ module.exports = {
     execute(message, args) {
 
         const fetch = require('node-fetch');
-        let url = `https://api.battlemetrics.com/servers/14910891`;
-	let url2 = `https://api.battlemetrics.com/servers/14911398`;
-	let url3 = `https://api.battlemetrics.com/servers/14906935`;
-	let url4 = `https://api.battlemetrics.com/servers/14915593`;
-	let url5 = `https://api.battlemetrics.com/servers/15015841`;
-	let url6 = `https://api.battlemetrics.com/servers/14910892`;
-    let url7 = `https://api.battlemetrics.com/servers/15551025`;
+        let url = `https://api.battlemetrics.com/servers/15728872`;
+	let url2 = `https://api.battlemetrics.com/servers/15728874`;
+	let url3 = `https://api.battlemetrics.com/servers/15733329`;
+	let url4 = `https://api.battlemetrics.com/servers/15734027`;
+	let url5 = `https://api.battlemetrics.com/servers/15728811`;
+	let url6 = `https://api.battlemetrics.com/servers/15728876`;
+    let url7 = `https://api.battlemetrics.com/servers/15728875`;
 
         fetch(url)
             .then(response => {
