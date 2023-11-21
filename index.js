@@ -41,11 +41,6 @@ client.on('message', message => {
 	message.channel.send(`pong! Latency of ${timeTaken}ms`);	
 	}
 	
-	else if (command === 'rank') {
-		console.log('ignoring rank command');
-		
-	}	
-	
 	else if (command === 'help') {
 	client.commands.get('help').execute(message, args);	
 	message.channel.send(helpArray);
