@@ -1,12 +1,6 @@
 config.json
-<<<<<<< HEAD
-data/messages.db
-data/msglog.json
-data/testfile1.txt
-=======
 sqlitetools/
 data/sqlite3.exe
 data/messages.db
 data/msglog.json
 node_modules/
->>>>>>> 41caf41354c96f4451459b245df7e41245b18d2f

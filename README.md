@@ -13,8 +13,9 @@ Requires SQLite.
 !valorant - simple link to the valorant news page
 !raiderio {realm} {character} - shows the top M+ runs for the entered character, currently configured for EU realms
 !mythicplus - shows the M+ affixes for the current week
-!setmsg {message} - will record a message
-!readmsg - will display the saved message
+!dbwrite - write a message to the SQLite DB
+!dbread {author} - pull messages from the database made by the entered username
+!dbrandom - pull a random message back from the database
 ```
 
 ### To do list
